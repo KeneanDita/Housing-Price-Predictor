@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model = joblib.load("reg.pkl")
+model = joblib.load("regressor_1.pkl")
 
 st.title("🏠 California House Price Predictor")
 
