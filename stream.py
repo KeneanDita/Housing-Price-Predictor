@@ -19,6 +19,7 @@ households = st.number_input("Households", value=400.0)
 median_income = st.number_input("Median Income (10k USD)", value=3.0, step=0.1)
 
 
+
 if st.button("Predict Price"):
     input_data = np.array([[longitude, latitude, housing_median_age,
                             total_rooms, total_bedrooms, population,
